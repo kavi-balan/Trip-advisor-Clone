@@ -40,6 +40,15 @@ body{
     align-items: center;
     padding-right: 70px;
 }
+.navbar__s2 h4{
+    padding: 10px;
+}
+.navbar__s2 h4:hover{
+    cursor:pointer;
+    background-color: lightgray;
+    transition: 1s;
+    border-radius: 20px;
+}
 .navbar__s3{
     display: flex;
     align-items: center;
@@ -471,4 +480,54 @@ body{
         bottom: 150px;
         width: 700px;
     }
+}
+@media screen and (max-width:480px){
+    .navbar__s3__region{
+        display:none;
+    }
+   .navbar3{
+    overflow-x: auto;
+   }
+   .navbar4{
+    margin-left:10px;
+    width: 90%;
+   }
+   .sale-image__offer__h1{
+    display: none;
+   }
+   .sale-image__offer{
+    margin-top: 50px;
+    margin-right: 30px;
+    position:relative;
+    left: 160px;
+    bottom: 150px;
+   }
+   .top-destination{
+    right: 140px;
+   }
+   .top-destination h2{
+    font-size: 20px;
+   }
+   .top-destination p{
+    font-size: 12px;
+   }
+   .explore{
+    right:140px;
+   }
+   .more-explore h2{
+    font-size: 32px;
+   }
+   .creators-guide{
+    right: 140px;
+   }
+   .creators-guide h2{
+    font-size: 20px;
+   }
+   .creators-guide p{
+    font-size: 13px;
+   }
+   .footer{
+    width: 120%;
+    font-size: 13px;
+   }
 }
