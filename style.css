@@ -483,11 +483,12 @@ body{
 }
 @media screen and (max-width:480px){
     .navbar{
-        width: 100%;
+        width: 94.5%;
     }
     .navbar2{
         position: relative;
         bottom: 30px;
+        width: 90%;
     }
     .navbar__s3__region{
         display:none;
@@ -498,6 +499,10 @@ body{
    .navbar4{
     margin-left:10px;
     width: 90%;
+   }
+   .sale-image{
+    bottom: 10px;
+    right: 100px;
    }
    .sale-image__offer__h1{
     display: none;
@@ -510,7 +515,7 @@ body{
     bottom: 150px;
    }
    .top-destination{
-    width: 100%;
+    width: 94.5%;
     right: 140px;
    }
    .top-destination h2{
@@ -521,13 +526,13 @@ body{
    }
    .explore{
     right:140px;
-    width: 140%;
+    width: 137%;
    }
    .more-explore h2{
     font-size: 32px;
    }
    .creators-guide{
-    width: 100%;
+    width: 94.5%;
     right: 140px;
    }
    .creators-guide h2{
@@ -537,7 +542,7 @@ body{
     font-size: 13px;
    }
    .footer{
-    width: 120%;
+    width: 121.3%;
     font-size: 13px;
    }
 }
